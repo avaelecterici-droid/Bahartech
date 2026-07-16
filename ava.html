@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آوا | نرم‌افزار مدیریت لوازم یدکی - بهارتک</title>
+<meta name="description" content="آوا - نرم‌افزار تخصصی مدیریت فروش و انبار فروشگاه‌های لوازم یدکی، تعمیرگاه‌ها و شرکت‌های توزیع">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="ava-page">
+
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader">
+        <div class="ring"></div>
+        <div class="preloader-text">آوا</div>
+        <div class="progress"><div class="bar"></div></div>
+    </div>
+</div>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-content">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> 09119063424</span>
+                <span><i class="fas fa-envelope"></i> info@bahartek.ir</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#download"><i class="fas fa-gift"></i> نسخه آزمایشی</a>
+                <a href="#contact"><i class="fas fa-headset"></i> پشتیبانی</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">B</span>
+                <div>
+                    <span>بهارتک</span>
+                    <small>محصول: آوا</small>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features">امکانات</a></li>
+                <li><a href="#why-ava">چرا آوا؟</a></li>
+                <li><a href="#pricing">قیمت‌ها</a></li>
+                <li><a href="#how-it-works">مراحل شروع</a></li>
+                <li><a href="#faq">سوالات</a></li>
+                <li><a href="#contact">تماس</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="avin.html" class="btn btn-outline btn-sm">
+                    <i class="fas fa-cash-register"></i> آوین
+                </a>
+                <a href="#download" class="btn btn-primary btn-sm">
+                    <i class="fas fa-download"></i> دانلود
+                </a>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-text" data-aos="fade-left">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    نسخه ۱.۰ - به زودی منتشر می‌شود
+                </div>
+                <h1>
+                    مدیریت هوشمند<br>
+                    <span class="gradient-text">فروش و انبار</span>
+                </h1>
+                <p>
+                    نرم‌افزار «آوا» یک راه‌حل کامل و ساده برای مدیریت فروشگاه‌های 
+                    لوازم یدکی، تعمیرگاه‌ها و شرکت‌های توزیع است.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> دریافت نسخه آزمایشی
+                    </a>
+                    <a href="#features" class="btn btn-outline btn-lg">
+                        <i class="fas fa-eye"></i> مشاهده امکانات
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-tools"></i></span>
+                        <span class="stat-label">طراحی برای لوازم یدکی</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-users"></i></span>
+                        <span class="stat-label">چند کاربره</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-chart-line"></i></span>
+                        <span class="stat-label">گزارشات هوشمند</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper" data-aos="fade-right">
+                <img src="image/dashboard-preview.png" alt="آوا" onerror="this.src='https://via.placeholder.com/600x500/1b5e20/ffffff?text=آوا'">
+                <div class="floating-card card-1">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>امنیت داده‌ها</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-bolt"></i>
+                    <span>سرعت بالا</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-headset"></i>
+                    <span>پشتیبانی کامل</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+            <path fill="#ffffff" d="M0,40 C360,80 720,0 1440,40 L1440,80 L0,80 Z"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- چرا آوا؟ -->
+<section class="why-ava" id="why-ava">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">✨ چرا آوا؟</span>
+            <h2>چرا باید آوا را انتخاب کنید؟</h2>
+            <p>ما هنوز در ابتدای راه هستیم، اما با دقت و وسواس طراحی کرده‌ایم</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card" data-aos="fade-up">
+                <div class="why-icon"><i class="fas fa-bullseye"></i></div>
+                <h3>طراحی تخصصی</h3>
+                <p>به طور خاص برای فروشگاه‌های لوازم یدکی طراحی شده است.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="why-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                <h3>پشتیبانی صادقانه</h3>
+                <p>چون تازه شروع کرده‌ایم، تک‌تک مشتریان برای ما ارزشمندند.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="why-icon"><i class="fas fa-sync-alt"></i></div>
+                <h3>به‌روزرسانی مداوم</h3>
+                <p>با بازخورد شما، امکانات جدید به صورت منظم اضافه می‌شود.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="why-icon"><i class="fas fa-tags"></i></div>
+                <h3>قیمت منصفانه</h3>
+                <p>یک بار پرداخت می‌کنید و برای همیشه استفاده می‌کنید.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- امکانات -->
+<section class="features" id="features">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">✨ امکانات</span>
+            <h2>همه ابزارها در یک نرم‌افزار</h2>
+            <p>هر آنچه برای مدیریت فروشگاه لوازم یدکی نیاز دارید</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon"><i class="fas fa-users"></i></div>
+                <h3>مدیریت مشتریان</h3>
+                <p>ثبت، ویرایش، جستجو و مدیریت کامل اطلاعات مشتریان</p>
+                <span class="feature-tag">پیشرفته</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon"><i class="fas fa-boxes"></i></div>
+                <h3>مدیریت موجودی</h3>
+                <p>ثبت کالا، قیمت‌گذاری، انبارگردانی و مدیریت دقیق موجودی</p>
+                <span class="feature-tag">حیاتی</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon"><i class="fas fa-file-invoice"></i></div>
+                <h3>فاکتور فروش</h3>
+                <p>ثبت فاکتور با تخفیف، اقساط، مالیات و چاپ حرفه‌ای</p>
+                <span class="feature-tag">پرکاربرد</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-icon"><i class="fas fa-undo-alt"></i></div>
+                <h3>مدیریت مرجوعی</h3>
+                <p>ثبت مرجوعی کامل یا بخشی از فاکتور با محاسبات دقیق</p>
+                <span class="feature-tag">ضروری</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="feature-icon"><i class="fas fa-trash-alt"></i></div>
+                <h3>ضایعات و اسقاط</h3>
+                <p>ثبت کالای معیوب یا تاریخ‌گذشته و کسر از موجودی</p>
+                <span class="feature-tag">مدیریتی</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+                <h3>گزارشات هوشمند</h3>
+                <p>نمودار فروش، سود و زیان و گزارشات پیشرفته</p>
+                <span class="feature-tag">تحلیلی</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="feature-icon"><i class="fas fa-bell"></i></div>
+                <h3>سیستم اعلان‌ها</h3>
+                <p>هشدار کم‌موجودی، فاکتورهای معوق و مشتریان بدهکار</p>
+                <span class="feature-tag">هوشمند</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="feature-icon"><i class="fas fa-database"></i></div>
+                <h3>پشتیبان‌گیری</h3>
+                <p>خروجی Excel و DB از تمام اطلاعات با یک کلیک</p>
+                <span class="feature-tag">امنیت</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- مراحل شروع -->
+<section class="how-it-works" id="how-it-works">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">🚀 شروع آسان</span>
+            <h2>در ۴ قدم ساده شروع کنید</h2>
+        </div>
+        <div class="steps-grid">
+            <div class="step-card" data-aos="fade-up">
+                <div class="step-number">۱</div>
+                <div class="step-icon"><i class="fas fa-download"></i></div>
+                <h3>دانلود</h3>
+                <p>نسخه آزمایشی ۳ روزه را دانلود کنید</p>
+            </div>
+            <div class="step-arrow"><i class="fas fa-chevron-left"></i></div>
+            <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="step-number">۲</div>
+                <div class="step-icon"><i class="fas fa-cogs"></i></div>
+                <h3>نصب</h3>
+                <p>با چند کلیک نصب کنید</p>
+            </div>
+            <div class="step-arrow"><i class="fas fa-chevron-left"></i></div>
+            <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="step-number">۳</div>
+                <div class="step-icon"><i class="fas fa-box-open"></i></div>
+                <h3>ورود اطلاعات</h3>
+                <p>کالاها و مشتریان را وارد کنید</p>
+            </div>
+            <div class="step-arrow"><i class="fas fa-chevron-left"></i></div>
+            <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="step-number">۴</div>
+                <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                <h3>شروع کار</h3>
+                <p>فاکتور بزنید و گزارشات را ببینید</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- قیمت‌گذاری -->
+<section class="pricing" id="pricing">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">💰 قیمت‌گذاری</span>
+            <h2>قیمت‌های منصفانه</h2>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card" data-aos="fade-up">
+                <div class="pricing-header">
+                    <h3>پایه</h3>
+                    <div class="price">
+                        <span class="amount">۳</span>
+                        <span class="currency">میلیون تومان</span>
+                    </div>
+                    <p>برای فروشگاه‌های کوچک</p>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> مدیریت مشتریان و کالا</li>
+                    <li><i class="fas fa-check-circle"></i> ثبت فاکتور فروش</li>
+                    <li><i class="fas fa-check-circle"></i> چاپ فاکتور</li>
+                    <li><i class="fas fa-check-circle"></i> مدیریت مرجوعی</li>
+                    <li class="disabled"><i class="fas fa-times-circle"></i> گزارشات پیشرفته</li>
+                    <li><i class="fas fa-check-circle"></i> ۱ کاربر</li>
+                </ul>
+                <a href="#contact" class="btn btn-outline btn-block">تماس بگیرید</a>
+            </div>
+            <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                <div class="pricing-badge">پرفروش</div>
+                <div class="pricing-header">
+                    <h3>حرفه‌ای</h3>
+                    <div class="price">
+                        <span class="amount">۵</span>
+                        <span class="currency">میلیون تومان</span>
+                    </div>
+                    <p>برای فروشگاه‌های متوسط</p>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> همه امکانات پایه</li>
+                    <li><i class="fas fa-check-circle"></i> مدیریت ضایعات</li>
+                    <li><i class="fas fa-check-circle"></i> گزارشات و نمودارها</li>
+                    <li><i class="fas fa-check-circle"></i> سیستم اعلان‌ها</li>
+                    <li><i class="fas fa-check-circle"></i> تا ۳ کاربر</li>
+                    <li><i class="fas fa-check-circle"></i> پشتیبانی ۶ ماه</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary btn-block">شروع کنید</a>
+            </div>
+            <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="pricing-header">
+                    <h3>سازمانی</h3>
+                    <div class="price">
+                        <span class="amount">۸</span>
+                        <span class="currency">میلیون تومان</span>
+                    </div>
+                    <p>برای شرکت‌های بزرگ</p>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> همه امکانات حرفه‌ای</li>
+                    <li><i class="fas fa-check-circle"></i> کاربران نامحدود</li>
+                    <li><i class="fas fa-check-circle"></i> نصب و آموزش</li>
+                    <li><i class="fas fa-check-circle"></i> پشتیبانی ۱ سال</li>
+                    <li><i class="fas fa-check-circle"></i> گزارشات سفارشی</li>
+                </ul>
+                <a href="#contact" class="btn btn-outline btn-block">تماس بگیرید</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- دانلود -->
+<section class="download" id="download">
+    <div class="container">
+        <div class="download-wrapper">
+            <div class="download-content" data-aos="fade-left">
+                <div class="download-icon"><i class="fas fa-gift"></i></div>
+                <h2>نسخه آزمایشی ۳ روزه رایگان</h2>
+                <p>تمام امکانات نسخه حرفه‌ای در دسترس شماست.</p>
+                <div class="download-features">
+                    <span><i class="fas fa-check-circle"></i> بدون محدودیت</span>
+                    <span><i class="fas fa-check-circle"></i> بدون کارت بانکی</span>
+                    <span><i class="fas fa-check-circle"></i> پشتیبانی فعال</span>
+                </div>
+            </div>
+            <div data-aos="fade-right">
+                <form class="download-form" id="downloadForm" onsubmit="handleDownloadRequest(event, 'ava')">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-user"></i> نام *</label>
+                            <input type="text" id="downloadName" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> شماره تماس *</label>
+                            <input type="tel" id="downloadPhone" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-store"></i> نام فروشگاه</label>
+                            <input type="text" id="downloadStore">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-map-marker-alt"></i> شهر</label>
+                            <input type="text" id="downloadCity">
+                        </div>
+                    </div>
+                    <div class="form-agreement">
+                        <label>
+                            <input type="checkbox" required>
+                            با <a href="#">قوانین</a> موافقم
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-lg">
+                        <i class="fas fa-paper-plane"></i> دریافت نسخه آزمایشی
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">❓ سوالات متداول</span>
+            <h2>پاسخ به سوالات شما</h2>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>آوا روی چه سیستمی نصب می‌شود؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>روی تمام نسخه‌های ویندوز ۱۰ و ۱۱.</p></div>
+            </div>
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>نسخه آزمایشی محدودیت دارد؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>۳ روز کاملاً کامل و بدون محدودیت.</p></div>
+            </div>
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>آیا پشتیبانی دارید؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>بله، از طریق تلفن، تلگرام و ایمیل.</p></div>
+            </div>
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>داده‌های من امن است؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>بله، تمام داده‌ها در سیستم شما ذخیره می‌شود.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- تماس -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-info" data-aos="fade-left">
+                <span class="badge">📞 تماس با ما</span>
+                <h2>سوالی دارید؟</h2>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="method-icon"><i class="fas fa-phone"></i></div>
+                        <div><strong>تلفن</strong><span>09119063424</span></div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                        <div><strong>ایمیل</strong><span>info@bahartek.ir</span></div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div><strong>واتساپ</strong><span>09119063424</span></div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label>نام</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>شماره تماس</label>
+                        <input type="tel" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label>موضوع</label>
+                        <select name="subject" required>
+                            <option value="">انتخاب...</option>
+                            <option>مشاوره خرید آوا</option>
+                            <option>پشتیبانی</option>
+                            <option>سایر</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>پیام</label>
+                        <textarea name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fab fa-whatsapp"></i> ارسال از طریق واتساپ
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <span class="logo-icon">B</span>
+                <span>بهارتک</span>
+                <p>محصول: آوا - نرم‌افزار لوازم یدکی</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>محصولات</h4>
+                <a href="ava.html">آوا</a>
+                <a href="avin.html">آوین</a>
+            </div>
+            <div class="footer-links">
+                <h4>پشتیبانی</h4>
+                <a href="tel:09119063424">09119063424</a>
+                <a href="mailto:info@bahartek.ir">info@bahartek.ir</a>
+            </div>
+            <div class="footer-links">
+                <h4>اطلاعات</h4>
+                <a href="#">درباره ما</a>
+                <a href="#">قوانین</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © ۱۴۰۵ بهارتک - تمامی حقوق محفوظ است
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

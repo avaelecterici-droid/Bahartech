@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آوین | نرم‌افزار صندوق فروشگاهی - بهارتک</title>
+<meta name="description" content="آوین - نرم‌افزار حرفه‌ای صندوق فروشگاهی (POS) برای سوپرمارکت‌ها، فروشگاه‌ها و رستوران‌ها">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="avin-page">
+
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader">
+        <div class="ring"></div>
+        <div class="preloader-text">آوین</div>
+        <div class="progress"><div class="bar"></div></div>
+    </div>
+</div>
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-content">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> 09119063424</span>
+                <span><i class="fas fa-envelope"></i> info@bahartek.ir</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="#download"><i class="fas fa-gift"></i> نسخه آزمایشی</a>
+                <a href="#contact"><i class="fas fa-headset"></i> پشتیبانی</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">B</span>
+                <div>
+                    <span>بهارتک</span>
+                    <small>محصول: آوین</small>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features">امکانات</a></li>
+                <li><a href="#why-avin">چرا آوین؟</a></li>
+                <li><a href="#pricing">قیمت‌ها</a></li>
+                <li><a href="#faq">سوالات</a></li>
+                <li><a href="#contact">تماس</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="ava.html" class="btn btn-outline btn-sm">
+                    <i class="fas fa-cogs"></i> آوا
+                </a>
+                <a href="#download" class="btn btn-primary btn-sm">
+                    <i class="fas fa-download"></i> دانلود
+                </a>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-text" data-aos="fade-left">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    نسخه ۱.۰ - به زودی منتشر می‌شود
+                </div>
+                <h1>
+                    صندوق فروشگاهی<br>
+                    <span class="gradient-text">هوشمند و سریع</span>
+                </h1>
+                <p>
+                    نرم‌افزار «آوین» یک راه‌حل حرفه‌ای برای صندوق فروشگاهی سوپرمارکت‌ها، 
+                    فروشگاه‌های زنجیره‌ای، کافه‌ها و رستوران‌ها. با اسکن بارکد، چاپ فیش و گزارشات لحظه‌ای.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> دریافت نسخه آزمایشی
+                    </a>
+                    <a href="#features" class="btn btn-outline btn-lg">
+                        <i class="fas fa-eye"></i> مشاهده امکانات
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-barcode"></i></span>
+                        <span class="stat-label">اسکن بارکد سریع</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-print"></i></span>
+                        <span class="stat-label">چاپ فیش حرارتی</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-tachometer-alt"></i></span>
+                        <span class="stat-label">سرعت بالا</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper" data-aos="fade-right">
+                <img src="image/avin-preview.png" alt="آوین" onerror="this.src='https://via.placeholder.com/600x500/1e3a8a/ffffff?text=آوین'">
+                <div class="floating-card card-1">
+                    <i class="fas fa-bolt"></i>
+                    <span>سرعت فوق‌العاده</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-barcode"></i>
+                    <span>بارکدخوان</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-receipt"></i>
+                    <span>چاپ فیش</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+            <path fill="#ffffff" d="M0,40 C360,80 720,0 1440,40 L1440,80 L0,80 Z"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- چرا آوین؟ -->
+<section class="why-ava" id="why-avin">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">✨ چرا آوین؟</span>
+            <h2>چرا باید آوین را انتخاب کنید؟</h2>
+            <p>صندوق فروشگاهی که برای سرعت طراحی شده</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card" data-aos="fade-up">
+                <div class="why-icon"><i class="fas fa-bolt"></i></div>
+                <h3>سرعت فوق‌العاده</h3>
+                <p>طراحی شده برای صف‌های شلوغ. هر فاکتور در چند ثانیه ثبت می‌شود.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="why-icon"><i class="fas fa-barcode"></i></div>
+                <h3>پشتیبانی از بارکدخوان</h3>
+                <p>اسکن سریع بارکد، QR Code و کد ملی با تمام مدل‌های بارکدخوان.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="why-icon"><i class="fas fa-print"></i></div>
+                <h3>چاپ فیش حرارتی</h3>
+                <p>پشتیبانی از تمام چاپگرهای حرارتی با فیش حرفه‌ای و زیبا.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="why-icon"><i class="fas fa-cash-register"></i></div>
+                <h3>مدیریت چند صندوق</h3>
+                <p>چند صندوق همزمان با گزارشات جداگانه برای هر صندوق.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- امکانات -->
+<section class="features" id="features">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">✨ امکانات</span>
+            <h2>همه ابزارهای صندوق فروشگاهی</h2>
+            <p>هر آنچه برای یک صندوق فروشگاهی حرفه‌ای نیاز دارید</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up">
+                <div class="feature-icon"><i class="fas fa-barcode"></i></div>
+                <h3>اسکن بارکد</h3>
+                <p>اسکن سریع بارکد کالاها با پشتیبانی از تمام بارکدخوان‌ها</p>
+                <span class="feature-tag">حیاتی</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-icon"><i class="fas fa-receipt"></i></div>
+                <h3>چاپ فیش</h3>
+                <p>چاپ فیش حرارتی با طراحی حرفه‌ای و لوگوی فروشگاه</p>
+                <span class="feature-tag">پرکاربرد</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-icon"><i class="fas fa-cash-register"></i></div>
+                <h3>چند صندوق</h3>
+                <p>مدیریت چند صندوق همزمان با گزارشات جداگانه</p>
+                <span class="feature-tag">پیشرفته</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-icon"><i class="fas fa-percentage"></i></div>
+                <h3>تخفیف و پروموشن</h3>
+                <p>تخفیف درصدی/نقدی، خرید X بده Y، کد تخفیف</p>
+                <span class="feature-tag">هوشمند</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="feature-icon"><i class="fas fa-boxes"></i></div>
+                <h3>مدیریت موجودی</h3>
+                <p>ثبت کالا، دسته‌بندی، قیمت‌گذاری و هشدار کم‌موجودی</p>
+                <span class="feature-tag">ضروری</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>گزارشات لحظه‌ای</h3>
+                <p>فروش روزانه، هفتگی، ماهانه و نمودارهای تحلیلی</p>
+                <span class="feature-tag">تحلیلی</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="feature-icon"><i class="fas fa-users"></i></div>
+                <h3>باشگاه مشتریان</h3>
+                <p>ثبت مشتریان، امتیازدهی و تخفیف‌های اختصاصی</p>
+                <span class="feature-tag">وفاداری</span>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="feature-icon"><i class="fas fa-credit-card"></i></div>
+                <h3>روش‌های پرداخت</h3>
+                <p>نقدی، کارت، اعتباری، ترکیبی و اتصال به کارتخوان</p>
+                <span class="feature-tag">انعطاف‌پذیر</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- قیمت‌گذاری -->
+<section class="pricing" id="pricing">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">💰 قیمت‌گذاری</span>
+            <h2>قیمت‌های منصفانه</h2>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card" data-aos="fade-up">
+                <div class="pricing-header">
+                    <h3>پایه</h3>
+                    <div class="price">
+                        <span class="amount">۲.۵</span>
+                        <span class="currency">میلیون تومان</span>
+                    </div>
+                    <p>برای فروشگاه‌های کوچک</p>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> ثبت فاکتور و چاپ فیش</li>
+                    <li><i class="fas fa-check-circle"></i> اسکن بارکد</li>
+                    <li><i class="fas fa-check-circle"></i> مدیریت موجودی</li>
+                    <li><i class="fas fa-check-circle"></i> ۱ صندوق</li>
+                    <li class="disabled"><i class="fas fa-times-circle"></i> باشگاه مشتریان</li>
+                </ul>
+                <a href="#contact" class="btn btn-outline btn-block">تماس بگیرید</a>
+            </div>
+            <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                <div class="pricing-badge">پرفروش</div>
+                <div class="pricing-header">
+                    <h3>حرفه‌ای</h3>
+                    <div class="price">
+                        <span class="amount">۴</span>
+                        <span class="currency">میلیون تومان</span>
+                    </div>
+                    <p>برای فروشگاه‌های متوسط</p>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> همه امکانات پایه</li>
+                    <li><i class="fas fa-check-circle"></i> باشگاه مشتریان</li>
+                    <li><i class="fas fa-check-circle"></i> تخفیف و پروموشن</li>
+                    <li><i class="fas fa-check-circle"></i> تا ۳ صندوق</li>
+                    <li><i class="fas fa-check-circle"></i> گزارشات پیشرفته</li>
+                    <li><i class="fas fa-check-circle"></i> پشتیبانی ۶ ماه</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary btn-block">شروع کنید</a>
+            </div>
+            <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="pricing-header">
+                    <h3>فروشگاهی</h3>
+                    <div class="price">
+                        <span class="amount">۷</span>
+                        <span class="currency">میلیون تومان</span>
+                    </div>
+                    <p>برای فروشگاه‌های بزرگ</p>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> همه امکانات حرفه‌ای</li>
+                    <li><i class="fas fa-check-circle"></i> صندوق‌های نامحدود</li>
+                    <li><i class="fas fa-check-circle"></i> اتصال به کارتخوان</li>
+                    <li><i class="fas fa-check-circle"></i> نصب و آموزش</li>
+                    <li><i class="fas fa-check-circle"></i> پشتیبانی ۱ سال</li>
+                </ul>
+                <a href="#contact" class="btn btn-outline btn-block">تماس بگیرید</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- دانلود -->
+<section class="download" id="download">
+    <div class="container">
+        <div class="download-wrapper">
+            <div class="download-content" data-aos="fade-left">
+                <div class="download-icon"><i class="fas fa-gift"></i></div>
+                <h2>نسخه آزمایشی ۳ روزه رایگان</h2>
+                <p>تمام امکانات نسخه حرفه‌ای در دسترس شماست.</p>
+                <div class="download-features">
+                    <span><i class="fas fa-check-circle"></i> بدون محدودیت</span>
+                    <span><i class="fas fa-check-circle"></i> بدون کارت بانکی</span>
+                    <span><i class="fas fa-check-circle"></i> پشتیبانی فعال</span>
+                </div>
+            </div>
+            <div data-aos="fade-right">
+                <form class="download-form" id="downloadForm" onsubmit="handleDownloadRequest(event, 'avin')">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-user"></i> نام *</label>
+                            <input type="text" id="downloadName" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> شماره تماس *</label>
+                            <input type="tel" id="downloadPhone" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label><i class="fas fa-store"></i> نام فروشگاه</label>
+                            <input type="text" id="downloadStore">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-map-marker-alt"></i> شهر</label>
+                            <input type="text" id="downloadCity">
+                        </div>
+                    </div>
+                    <div class="form-agreement">
+                        <label>
+                            <input type="checkbox" required>
+                            با <a href="#">قوانین</a> موافقم
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-lg">
+                        <i class="fas fa-paper-plane"></i> دریافت نسخه آزمایشی
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="badge">❓ سوالات متداول</span>
+            <h2>پاسخ به سوالات شما</h2>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>آوین چه سخت‌افزاری را پشتیبانی می‌کند؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>بارکدخوان، چاپگر حرارتی، کارتخوان و کشوی پول.</p></div>
+            </div>
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>آیا چند صندوق همزمان پشتیبانی می‌شود؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>بله، در نسخه حرفه‌ای تا ۳ و در نسخه فروشگاهی نامحدود.</p></div>
+            </div>
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>آیا به کارتخوان متصل می‌شود؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>بله، در نسخه فروشگاهی به اکثر کارتخوان‌ها متصل می‌شود.</p></div>
+            </div>
+            <div class="faq-item" data-aos="fade-up">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    <span>آیا برای رستوران مناسب است؟</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer"><p>بله، با امکاناتی مثل میز، منو و سفارش مخصوص رستوران.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- تماس -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-info" data-aos="fade-left">
+                <span class="badge">📞 تماس با ما</span>
+                <h2>سوالی دارید؟</h2>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="method-icon"><i class="fas fa-phone"></i></div>
+                        <div><strong>تلفن</strong><span>09119063424</span></div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                        <div><strong>ایمیل</strong><span>info@bahartek.ir</span></div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div><strong>واتساپ</strong><span>09119063424</span></div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label>نام</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>شماره تماس</label>
+                        <input type="tel" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label>موضوع</label>
+                        <select name="subject" required>
+                            <option value="">انتخاب...</option>
+                            <option>مشاوره خرید آوین</option>
+                            <option>پشتیبانی</option>
+                            <option>سایر</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>پیام</label>
+                        <textarea name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fab fa-whatsapp"></i> ارسال از طریق واتساپ
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <span class="logo-icon">B</span>
+                <span>بهارتک</span>
+                <p>محصول: آوین - صندوق فروشگاهی</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>محصولات</h4>
+                <a href="ava.html">آوا</a>
+                <a href="avin.html">آوین</a>
+            </div>
+            <div class="footer-links">
+                <h4>پشتیبانی</h4>
+                <a href="tel:09119063424">09119063424</a>
+                <a href="mailto:info@bahartek.ir">info@bahartek.ir</a>
+            </div>
+            <div class="footer-links">
+                <h4>اطلاعات</h4>
+                <a href="#">درباره ما</a>
+                <a href="#">قوانین</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © ۱۴۰۵ بهارتک - تمامی حقوق محفوظ است
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
